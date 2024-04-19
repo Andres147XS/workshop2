@@ -32,6 +32,7 @@ if (dailyBudget < totalExpenses) {
       alert(
         "El presupuesto y los gastos son iguales debe desistir de una de las 2 compras para poder ahorrar"
       );
+
       if (saving == eatingOut){
         alert("Debes desistir de la comida");
       }
@@ -47,3 +48,12 @@ if (dailyBudget < totalExpenses) {
     }
   }
 }
+
+let wish = prompt("Ingrese que actividad desea priorizar hoy:");
+
+if(wish == "comida"){
+    alert("debes prescindir de los libros y de ahorrar");
+}else{
+    alert("debes prescindir de la comida y de ahorrar")
+}
+
